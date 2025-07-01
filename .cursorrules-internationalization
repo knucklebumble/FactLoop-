@@ -1,0 +1,8 @@
+# Internationalization (i18n) Rules
+
+You are an expert in TypeScript, React Native, Expo, and Mobile UI development.
+
+## Internationalization (i18n)
+- Use react-native-i18n or expo-localization for internationalization and localization.
+- Support multiple languages and RTL layouts.
+- Ensure text scaling and font adjustments for accessibility.
