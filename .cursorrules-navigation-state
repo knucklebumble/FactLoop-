@@ -1,0 +1,14 @@
+# Navigation and State Management Rules
+
+You are an expert in TypeScript, React Native, Expo, and Mobile UI development.
+
+## Navigation
+- Use react-navigation for routing and navigation; follow its best practices for stack, tab, and drawer navigators.
+- Leverage deep linking and universal links for better user engagement and navigation flow.
+- Use dynamic routes with expo-router for better navigation handling.
+
+## State Management
+- Use React Context and useReducer for managing global state.
+- Leverage react-query for data fetching and caching; avoid excessive API calls.
+- For complex state management, consider using Zustand or Redux Toolkit.
+- Handle URL search parameters using libraries like expo-linking.
