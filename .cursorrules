@@ -1,0 +1,123 @@
+# Cursor Rules
+# Bu dosya Cursor AI asistanı için kodlama kuralları ve tercihlerini tanımlar
+
+## Genel Kodlama Standartları
+
+### Kod Kalitesi
+- Clean Code prensiplerini uygula
+- SOLID prensiplerini takip et
+- DRY (Don't Repeat Yourself) prensibini benimse
+- KISS (Keep It Simple, Stupid) yaklaşımını kullan
+- Kod okunabilirliğini her zaman öncelikle
+
+### Kod Formatı
+- Tutarlı girinti kullan (2 veya 4 boşluk, dile göre)
+- Anlamlı değişken ve fonksiyon isimleri kullan
+- Maksimum satır uzunluğu: 100 karakter
+- Trailing whitespace kullanma
+- Dosya sonunda boş satır bırak
+
+### Yorum ve Dokümantasyon
+- Karmaşık algoritmaları ve iş mantığını açıkla
+- TODO, FIXME, NOTE gibi etiketleri uygun şekilde kullan
+- Public API'ler için dokümantasyon yaz
+- Kodu açıklayan değil, neden yapıldığını açıklayan yorumlar yaz
+
+## Dil Spesifik Kurallar
+
+### JavaScript/TypeScript
+- TypeScript kullanımını tercih et
+- async/await kullan, Promise.then() yerine
+- Arrow function kullan, uygun olduğunda
+- const > let > var sıralamasını takip et
+- Strict mode kullan
+- ESLint ve Prettier yapılandırmasına uy
+- Interface ve type tanımlarını kullan
+
+### Python
+- PEP 8 standartlarını takip et
+- Type hints kullan
+- Docstring'leri yaz (Google style)
+- f-string kullan, format() yerine
+- List comprehension kullan, uygun olduğunda
+- Virtual environment kullan
+- Requirements.txt dosyasını güncel tut
+
+### React/Next.js
+- Functional component'ler kullan
+- Hooks kullan, class component'ler yerine
+- JSX için PascalCase kullan
+- Props için destructuring kullan
+- Custom hook'lar yaz, tekrar eden mantık için
+- Key prop'unu unutma
+- useEffect dependency array'ini doğru kullan
+
+### CSS/Styling
+- BEM metodolojisi veya CSS Modules kullan
+- Responsive design prensiplerini uygula
+- CSS variables kullan
+- Mobile-first yaklaşım benimse
+- Accessibility standartlarını takip et
+
+## Güvenlik Kuralları
+- Hassas bilgileri (API key, şifre) kodda sakla
+- Input validation yap
+- SQL injection'a karşı önlem al
+- XSS saldırılarına karşı korun
+- HTTPS kullan
+- Environment variables kullan
+
+## Performans
+- Lazy loading uygula
+- Code splitting kullan
+- Image optimization yap
+- Bundle size'ı optimize et
+- Caching stratejileri uygula
+- Database query'lerini optimize et
+
+## Test Kuralları
+- Unit test yaz
+- Integration test yaz
+- Test coverage'ı %80+ tut
+- TDD yaklaşımını benimse
+- Mock ve stub kullan, uygun yerlerde
+- Test dosyalarını organize et
+
+## Git Kuralları
+- Conventional commit messages kullan
+- Feature branch'ler kullan
+- Pull request'ler için code review yap
+- Commit'leri küçük ve anlamlı tut
+- .gitignore dosyasını güncel tut
+- Merge conflict'leri dikkatli çöz
+
+## Error Handling
+- Try-catch blokları kullan
+- Meaningful error messages yaz
+- Error logging yap
+- Graceful degradation uygula
+- User-friendly error messages göster
+
+## AI Asistan Tercihleri
+- Türkçe açıklamalar yap, gerektiğinde
+- Code example'ları ver
+- Best practice'leri öner
+- Alternative çözümler sun
+- Refactoring önerileri yap
+- Performance iyileştirmeler öner
+- Security açıklarını belirt
+- Modern teknolojileri öner
+
+## Proje Yapısı
+- Klasör yapısını organize et
+- Separation of concerns prensibini uygula
+- Config dosyalarını ayrı tut
+- Assets'leri organize et
+- Documentation klasörü oluştur
+
+## Dependency Management
+- Güncel versiyonları kullan
+- Security vulnerability'leri kontrol et
+- Unused dependency'leri temizle
+- Lock file'ları commit et
+- Semantic versioning kullan
